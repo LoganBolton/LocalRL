@@ -1,4 +1,5 @@
 import gymnasium as gym
+from gymnasium.envs.toy_text.frozen_lake import generate_random_map
 
 class CustomRewardWrapper(gym.Wrapper):
     """
@@ -11,10 +12,10 @@ class CustomRewardWrapper(gym.Wrapper):
         
     def _default_config(self):
         return {
-            'goal': 2.0,        # Reward for reaching goal
+            'goal': 10.0,        # Reward for reaching goal
             'hole': -1.0,       # Penalty for falling in hole
-            'step': -0.01,      # Small penalty per step
-            'ice': -0.001,      # Small penalty for ice
+            'step': -0.001,      # Small penalty per step
+            # 'ice': -0.001,      # Small penalty for ice
         }
     
     def step(self, action):
@@ -46,12 +47,13 @@ class CustomRewardWrapper(gym.Wrapper):
         reward += self.reward_config['step']
         
         # Ice penalty
-        row, col = current_pos
-        if map_desc[row][col] == b'I':
-            reward += self.reward_config['ice']
+        # row, col = current_pos
+        # if map_desc[row][col] == b'I':
+        #     reward += self.reward_config['ice']
         
         return reward
 
-def make_frozenlake_with_custom_rewards(reward_config=None):
-    env = gym.make("FrozenLake-v1")
+def make_frozenlake_with_custom_rewards(reward_config=None, render_mode=None):
+    env = gym.make("FrozenLake-v1", desc=generate_random_map(size=8), render_mode=render_mode)
+
     return CustomRewardWrapper(env, reward_config)
