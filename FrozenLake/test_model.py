@@ -1,12 +1,8 @@
 import gymnasium as gym
-import numpy as np
 from stable_baselines3 import PPO
 from gymnasium.wrappers import RecordVideo
-import os
 import wandb
-from callback import WandbCallback
-from custom_rewards import make_frozenlake_with_custom_rewards, CustomRewardWrapper
-
+from custom_rewards import CustomRewardWrapper
 
 class TestModel:
     def __init__(self):
@@ -15,7 +11,6 @@ class TestModel:
     def test_model(self):
         
         model = PPO.load("ppo_frozenlake")
-
         
         # Create base environment with render mode
         base_env = gym.make("FrozenLake-v1", render_mode="rgb_array")
@@ -29,7 +24,7 @@ class TestModel:
 
         while not done:
             action, _ = model.predict(obs, deterministic=True)
-            action = int(action)  # Convert numpy array to integer
+            action = int(action)
             obs, reward, terminated, truncated, info = test_env.step(action)
             done = terminated or truncated
             total_reward += float(reward)

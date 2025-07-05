@@ -1,5 +1,4 @@
 import gymnasium as gym
-import numpy as np
 
 class CustomRewardWrapper(gym.Wrapper):
     """
@@ -55,4 +54,4 @@ class CustomRewardWrapper(gym.Wrapper):
 
 def make_frozenlake_with_custom_rewards(reward_config=None):
     env = gym.make("FrozenLake-v1")
-    return CustomRewardWrapper(env, reward_config) 
+    return CustomRewardWrapper(env, reward_config)

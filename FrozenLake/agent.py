@@ -1,8 +1,4 @@
-import gymnasium as gym
-import numpy as np
 from stable_baselines3 import PPO
-from gymnasium.wrappers import RecordVideo
-import os
 import wandb
 from callback import WandbCallback
 from test_model import TestModel
