@@ -5,6 +5,7 @@ from gymnasium.wrappers import RecordVideo
 import os
 import wandb
 from callback import WandbCallback
+from custom_rewards import make_frozenlake_with_custom_rewards, CustomRewardWrapper
 
 
 class TestModel:
@@ -15,7 +16,10 @@ class TestModel:
         
         model = PPO.load("ppo_frozenlake")
 
-        test_env = gym.make("FrozenLake-v1", render_mode="rgb_array")
+        
+        # Create base environment with render mode
+        base_env = gym.make("FrozenLake-v1", render_mode="rgb_array")
+        test_env = CustomRewardWrapper(base_env)
         test_env = RecordVideo(test_env, video_folder="./videos/", episode_trigger=lambda x: True, name_prefix="frozenlake_training_test")
 
         obs, _ = test_env.reset()

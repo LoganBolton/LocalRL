@@ -36,14 +36,17 @@ class WandbCallback(BaseCallback):
             avg_length = np.mean(self.episode_lengths[-100:]) if len(self.episode_lengths) >= 100 else np.mean(self.episode_lengths)
             success_rate = np.mean(self.episode_successes[-100:]) if len(self.episode_successes) >= 100 else np.mean(self.episode_successes)
             
-            wandb.log({
-                "episode": len(self.episode_rewards),
-                "episode_reward": episode_reward,
-                "episode_length": episode_length,
-                "episode_success": episode_success,
-                "avg_reward_100": avg_reward,
-                "avg_length_100": avg_length,
-                "success_rate_100": success_rate,
-            })
+            try:
+                wandb.log({
+                    "episode": len(self.episode_rewards),
+                    "episode_reward": episode_reward,
+                    "episode_length": episode_length,
+                    "episode_success": episode_success,
+                    "avg_reward_100": avg_reward,
+                    "avg_length_100": avg_length,
+                    "success_rate_100": success_rate,
+                })
+            except:
+                pass  # Continue if wandb logging fails
             
         return True

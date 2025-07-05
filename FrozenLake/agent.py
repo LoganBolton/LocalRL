@@ -6,6 +6,7 @@ import os
 import wandb
 from callback import WandbCallback
 from test_model import TestModel
+from custom_rewards import make_frozenlake_with_custom_rewards
 
 wandb.init(
     project="frozenlake-ppo",
@@ -17,7 +18,8 @@ wandb.init(
     }
 )
     
-env = gym.make("FrozenLake-v1")
+# Create environment with custom rewards
+env = make_frozenlake_with_custom_rewards()
 
 model = PPO(
     policy="MlpPolicy",
@@ -26,7 +28,7 @@ model = PPO(
 )
 
 wandb_callback = WandbCallback()
-model.learn(total_timesteps=10_000, callback=wandb_callback)
+model.learn(total_timesteps=200_000, callback=wandb_callback)
 model.save("ppo_frozenlake")
 wandb.save("ppo_frozenlake.zip")
 
