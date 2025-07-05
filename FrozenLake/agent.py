@@ -14,8 +14,17 @@ wandb.init(
     }
 )
     
-# Create environment with custom rewards
-env = make_frozenlake_with_custom_rewards()
+# Fixed 5×5 map layout (S = start, F = frozen, H = hole, G = goal)
+FIXED_MAP_5x5 = [
+    "SFFFF",
+    "FHFHF",
+    "FFFHF",
+    "HFHFF",
+    "FFFHG",
+]
+
+# Create environment with custom rewards on a fixed map
+env = make_frozenlake_with_custom_rewards(desc=FIXED_MAP_5x5)
 
 model = PPO(
     policy="MlpPolicy",
@@ -24,7 +33,7 @@ model = PPO(
 )
 
 wandb_callback = WandbCallback()
-model.learn(total_timesteps=200_000, callback=wandb_callback)
+model.learn(total_timesteps=300_000, callback=wandb_callback)
 model.save("ppo_frozenlake")
 wandb.save("ppo_frozenlake.zip")
 

@@ -5,6 +5,14 @@ import wandb
 from custom_rewards import CustomRewardWrapper
 from custom_rewards import make_frozenlake_with_custom_rewards
 
+# Same fixed map used during training
+FIXED_MAP_5x5 = [
+    "SFFFF",
+    "FHFHF",
+    "FFFHF",
+    "HFHFF",
+    "FFFHG",
+]
 
 class TestModel:
     def __init__(self, use_wandb=True):
@@ -18,8 +26,8 @@ class TestModel:
         
         model = PPO.load("ppo_frozenlake")
         
-        # Create base environment with render mode
-        test_env = make_frozenlake_with_custom_rewards(render_mode="rgb_array")
+        # Create base environment with render mode on the fixed map
+        test_env = make_frozenlake_with_custom_rewards(render_mode="rgb_array", desc=FIXED_MAP_5x5)
         test_env = RecordVideo(test_env, video_folder="./videos/", episode_trigger=lambda x: True, name_prefix="frozenlake_training_test")
 
         obs, _ = test_env.reset()
