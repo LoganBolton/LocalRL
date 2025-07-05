@@ -1,0 +1,1507 @@
+Using cuda device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+/home/log/Github/LocalRL/.venv/lib/python3.12/site-packages/stable_baselines3/common/on_policy_algorithm.py:150: UserWarning: You are trying to run PPO on the GPU, but it is primarily intended to run on the CPU when not using a CNN policy (you are using ActorCriticPolicy which should be a MlpPolicy). See https://github.com/DLR-RM/stable-baselines3/issues/1245 for more info. You can pass `device='cpu'` or `export CUDA_VISIBLE_DEVICES=` to force using the CPU.Note: The model will train, but the GPU utilization will be poor and the training might take longer than on CPU.
+  warnings.warn(
+Logging to ./ppo_frozenlake_tensorboard/PPO_5
+Episode 10: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 20: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 30: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 40: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 50: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 60: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 70: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 80: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 90: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 100: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 110: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 120: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 130: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 140: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 150: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 160: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 170: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 180: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 190: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 200: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 210: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 220: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 230: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 240: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 250: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 260: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 270: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 7.2      |
+|    ep_rew_mean     | 0.01     |
+| time/              |          |
+|    fps             | 1707     |
+|    iterations      | 1        |
+|    time_elapsed    | 1        |
+|    total_timesteps | 2048     |
+---------------------------------
+Episode 280: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 290: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 300: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 310: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 320: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 330: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 340: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 350: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 360: Reward=0.00, Length=1, Avg Reward (100)=0.03, Success Rate (100)=0.03
+Episode 370: Reward=0.00, Length=1, Avg Reward (100)=0.03, Success Rate (100)=0.03
+Episode 380: Reward=0.00, Length=1, Avg Reward (100)=0.03, Success Rate (100)=0.03
+Episode 390: Reward=0.00, Length=1, Avg Reward (100)=0.03, Success Rate (100)=0.03
+Episode 400: Reward=0.00, Length=1, Avg Reward (100)=0.02, Success Rate (100)=0.02
+Episode 410: Reward=0.00, Length=1, Avg Reward (100)=0.02, Success Rate (100)=0.02
+Episode 420: Reward=0.00, Length=1, Avg Reward (100)=0.02, Success Rate (100)=0.02
+Episode 430: Reward=0.00, Length=1, Avg Reward (100)=0.02, Success Rate (100)=0.02
+Episode 440: Reward=0.00, Length=1, Avg Reward (100)=0.02, Success Rate (100)=0.02
+Episode 450: Reward=0.00, Length=1, Avg Reward (100)=0.02, Success Rate (100)=0.02
+Episode 460: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 470: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 480: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 490: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 500: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 510: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 8.03       |
+|    ep_rew_mean          | 0          |
+| time/                   |            |
+|    fps                  | 1473       |
+|    iterations           | 2          |
+|    time_elapsed         | 2          |
+|    total_timesteps      | 4096       |
+| train/                  |            |
+|    approx_kl            | 0.01919303 |
+|    clip_fraction        | 0.115      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -1.38      |
+|    explained_variance   | -10.1      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0323    |
+|    n_updates            | 10         |
+|    policy_gradient_loss | -0.0116    |
+|    value_loss           | 0.00826    |
+----------------------------------------
+Episode 520: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 530: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 540: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 550: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 560: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 570: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 580: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 590: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 600: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 610: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 620: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 630: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 640: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 650: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 660: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 670: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 680: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 690: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 700: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 710: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 720: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 730: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 9.62        |
+|    ep_rew_mean          | 0           |
+| time/                   |             |
+|    fps                  | 1448        |
+|    iterations           | 3           |
+|    time_elapsed         | 4           |
+|    total_timesteps      | 6144        |
+| train/                  |             |
+|    approx_kl            | 0.012701571 |
+|    clip_fraction        | 0.0554      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.34       |
+|    explained_variance   | 0.00169     |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0155     |
+|    n_updates            | 20          |
+|    policy_gradient_loss | -0.00786    |
+|    value_loss           | 0.00967     |
+-----------------------------------------
+Episode 740: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 750: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 760: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 770: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 780: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 790: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 800: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 810: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 820: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 830: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 840: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 850: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 860: Reward=0.00, Length=1, Avg Reward (100)=0.00, Success Rate (100)=0.00
+Episode 870: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 880: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 890: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 900: Reward=0.00, Length=1, Avg Reward (100)=0.02, Success Rate (100)=0.02
+Episode 910: Reward=0.00, Length=1, Avg Reward (100)=0.02, Success Rate (100)=0.02
+Episode 920: Reward=0.00, Length=1, Avg Reward (100)=0.03, Success Rate (100)=0.03
+Episode 930: Reward=0.00, Length=1, Avg Reward (100)=0.04, Success Rate (100)=0.04
+Episode 940: Reward=0.00, Length=1, Avg Reward (100)=0.04, Success Rate (100)=0.04
+Episode 950: Reward=0.00, Length=1, Avg Reward (100)=0.04, Success Rate (100)=0.04
+Episode 960: Reward=0.00, Length=1, Avg Reward (100)=0.04, Success Rate (100)=0.04
+Episode 970: Reward=0.00, Length=1, Avg Reward (100)=0.03, Success Rate (100)=0.03
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 8.07         |
+|    ep_rew_mean          | 0.03         |
+| time/                   |              |
+|    fps                  | 1431         |
+|    iterations           | 4            |
+|    time_elapsed         | 5            |
+|    total_timesteps      | 8192         |
+| train/                  |              |
+|    approx_kl            | 0.0152678415 |
+|    clip_fraction        | 0.0979       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.33        |
+|    explained_variance   | -0.0601      |
+|    learning_rate        | 0.0003       |
+|    loss                 | -0.0373      |
+|    n_updates            | 30           |
+|    policy_gradient_loss | -0.0132      |
+|    value_loss           | 0.00267      |
+------------------------------------------
+Episode 980: Reward=0.00, Length=1, Avg Reward (100)=0.03, Success Rate (100)=0.03
+Episode 990: Reward=0.00, Length=1, Avg Reward (100)=0.03, Success Rate (100)=0.03
+Episode 1000: Reward=0.00, Length=1, Avg Reward (100)=0.03, Success Rate (100)=0.03
+Episode 1010: Reward=0.00, Length=1, Avg Reward (100)=0.04, Success Rate (100)=0.04
+Episode 1020: Reward=0.00, Length=1, Avg Reward (100)=0.03, Success Rate (100)=0.03
+Episode 1030: Reward=0.00, Length=1, Avg Reward (100)=0.03, Success Rate (100)=0.03
+Episode 1040: Reward=0.00, Length=1, Avg Reward (100)=0.04, Success Rate (100)=0.04
+Episode 1050: Reward=0.00, Length=1, Avg Reward (100)=0.05, Success Rate (100)=0.05
+Episode 1060: Reward=0.00, Length=1, Avg Reward (100)=0.05, Success Rate (100)=0.05
+Episode 1070: Reward=0.00, Length=1, Avg Reward (100)=0.05, Success Rate (100)=0.05
+Episode 1080: Reward=1.00, Length=1, Avg Reward (100)=0.06, Success Rate (100)=0.06
+Episode 1090: Reward=0.00, Length=1, Avg Reward (100)=0.06, Success Rate (100)=0.06
+Episode 1100: Reward=0.00, Length=1, Avg Reward (100)=0.05, Success Rate (100)=0.05
+Episode 1110: Reward=0.00, Length=1, Avg Reward (100)=0.04, Success Rate (100)=0.04
+Episode 1120: Reward=0.00, Length=1, Avg Reward (100)=0.04, Success Rate (100)=0.04
+Episode 1130: Reward=0.00, Length=1, Avg Reward (100)=0.04, Success Rate (100)=0.04
+Episode 1140: Reward=0.00, Length=1, Avg Reward (100)=0.03, Success Rate (100)=0.03
+Episode 1150: Reward=0.00, Length=1, Avg Reward (100)=0.02, Success Rate (100)=0.02
+Episode 1160: Reward=0.00, Length=1, Avg Reward (100)=0.02, Success Rate (100)=0.02
+Episode 1170: Reward=0.00, Length=1, Avg Reward (100)=0.02, Success Rate (100)=0.02
+Episode 1180: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 1190: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 8.89        |
+|    ep_rew_mean          | 0.01        |
+| time/                   |             |
+|    fps                  | 1424        |
+|    iterations           | 5           |
+|    time_elapsed         | 7           |
+|    total_timesteps      | 10240       |
+| train/                  |             |
+|    approx_kl            | 0.012469054 |
+|    clip_fraction        | 0.0854      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.29       |
+|    explained_variance   | 0.0669      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0201     |
+|    n_updates            | 40          |
+|    policy_gradient_loss | -0.0101     |
+|    value_loss           | 0.0141      |
+-----------------------------------------
+Episode 1200: Reward=0.00, Length=1, Avg Reward (100)=0.02, Success Rate (100)=0.02
+Episode 1210: Reward=0.00, Length=1, Avg Reward (100)=0.02, Success Rate (100)=0.02
+Episode 1220: Reward=0.00, Length=1, Avg Reward (100)=0.03, Success Rate (100)=0.03
+Episode 1230: Reward=0.00, Length=1, Avg Reward (100)=0.02, Success Rate (100)=0.02
+Episode 1240: Reward=0.00, Length=1, Avg Reward (100)=0.02, Success Rate (100)=0.02
+Episode 1250: Reward=0.00, Length=1, Avg Reward (100)=0.03, Success Rate (100)=0.03
+Episode 1260: Reward=0.00, Length=1, Avg Reward (100)=0.04, Success Rate (100)=0.04
+Episode 1270: Reward=0.00, Length=1, Avg Reward (100)=0.05, Success Rate (100)=0.05
+Episode 1280: Reward=1.00, Length=1, Avg Reward (100)=0.07, Success Rate (100)=0.07
+Episode 1290: Reward=0.00, Length=1, Avg Reward (100)=0.07, Success Rate (100)=0.07
+Episode 1300: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 1310: Reward=0.00, Length=1, Avg Reward (100)=0.09, Success Rate (100)=0.09
+Episode 1320: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 1330: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 1340: Reward=1.00, Length=1, Avg Reward (100)=0.09, Success Rate (100)=0.09
+Episode 1350: Reward=0.00, Length=1, Avg Reward (100)=0.09, Success Rate (100)=0.09
+Episode 1360: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 1370: Reward=0.00, Length=1, Avg Reward (100)=0.07, Success Rate (100)=0.07
+Episode 1380: Reward=0.00, Length=1, Avg Reward (100)=0.05, Success Rate (100)=0.05
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 10.3        |
+|    ep_rew_mean          | 0.06        |
+| time/                   |             |
+|    fps                  | 1422        |
+|    iterations           | 6           |
+|    time_elapsed         | 8           |
+|    total_timesteps      | 12288       |
+| train/                  |             |
+|    approx_kl            | 0.012824204 |
+|    clip_fraction        | 0.0863      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.24       |
+|    explained_variance   | 0.181       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.0149      |
+|    n_updates            | 50          |
+|    policy_gradient_loss | -0.00891    |
+|    value_loss           | 0.0196      |
+-----------------------------------------
+Episode 1390: Reward=0.00, Length=1, Avg Reward (100)=0.06, Success Rate (100)=0.06
+Episode 1400: Reward=0.00, Length=1, Avg Reward (100)=0.05, Success Rate (100)=0.05
+Episode 1410: Reward=0.00, Length=1, Avg Reward (100)=0.04, Success Rate (100)=0.04
+Episode 1420: Reward=0.00, Length=1, Avg Reward (100)=0.05, Success Rate (100)=0.05
+Episode 1430: Reward=0.00, Length=1, Avg Reward (100)=0.05, Success Rate (100)=0.05
+Episode 1440: Reward=0.00, Length=1, Avg Reward (100)=0.05, Success Rate (100)=0.05
+Episode 1450: Reward=0.00, Length=1, Avg Reward (100)=0.04, Success Rate (100)=0.04
+Episode 1460: Reward=0.00, Length=1, Avg Reward (100)=0.05, Success Rate (100)=0.05
+Episode 1470: Reward=0.00, Length=1, Avg Reward (100)=0.05, Success Rate (100)=0.05
+Episode 1480: Reward=0.00, Length=1, Avg Reward (100)=0.05, Success Rate (100)=0.05
+Episode 1490: Reward=0.00, Length=1, Avg Reward (100)=0.04, Success Rate (100)=0.04
+Episode 1500: Reward=0.00, Length=1, Avg Reward (100)=0.03, Success Rate (100)=0.03
+Episode 1510: Reward=0.00, Length=1, Avg Reward (100)=0.03, Success Rate (100)=0.03
+Episode 1520: Reward=0.00, Length=1, Avg Reward (100)=0.02, Success Rate (100)=0.02
+Episode 1530: Reward=0.00, Length=1, Avg Reward (100)=0.03, Success Rate (100)=0.03
+Episode 1540: Reward=0.00, Length=1, Avg Reward (100)=0.02, Success Rate (100)=0.02
+Episode 1550: Reward=0.00, Length=1, Avg Reward (100)=0.02, Success Rate (100)=0.02
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 12.3        |
+|    ep_rew_mean          | 0.01        |
+| time/                   |             |
+|    fps                  | 1420        |
+|    iterations           | 7           |
+|    time_elapsed         | 10          |
+|    total_timesteps      | 14336       |
+| train/                  |             |
+|    approx_kl            | 0.015157631 |
+|    clip_fraction        | 0.162       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.15       |
+|    explained_variance   | 0.196       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.0276      |
+|    n_updates            | 60          |
+|    policy_gradient_loss | -0.0152     |
+|    value_loss           | 0.0383      |
+-----------------------------------------
+Episode 1560: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 1570: Reward=0.00, Length=1, Avg Reward (100)=0.01, Success Rate (100)=0.01
+Episode 1580: Reward=0.00, Length=1, Avg Reward (100)=0.02, Success Rate (100)=0.02
+Episode 1590: Reward=0.00, Length=1, Avg Reward (100)=0.06, Success Rate (100)=0.06
+Episode 1600: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 1610: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 1620: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 1630: Reward=0.00, Length=1, Avg Reward (100)=0.07, Success Rate (100)=0.07
+Episode 1640: Reward=0.00, Length=1, Avg Reward (100)=0.07, Success Rate (100)=0.07
+Episode 1650: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 1660: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 1670: Reward=0.00, Length=1, Avg Reward (100)=0.09, Success Rate (100)=0.09
+Episode 1680: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 1690: Reward=0.00, Length=1, Avg Reward (100)=0.04, Success Rate (100)=0.04
+Episode 1700: Reward=0.00, Length=1, Avg Reward (100)=0.03, Success Rate (100)=0.03
+Episode 1710: Reward=0.00, Length=1, Avg Reward (100)=0.05, Success Rate (100)=0.05
+Episode 1720: Reward=0.00, Length=1, Avg Reward (100)=0.05, Success Rate (100)=0.05
+Episode 1730: Reward=0.00, Length=1, Avg Reward (100)=0.06, Success Rate (100)=0.06
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 11.9        |
+|    ep_rew_mean          | 0.06        |
+| time/                   |             |
+|    fps                  | 1420        |
+|    iterations           | 8           |
+|    time_elapsed         | 11          |
+|    total_timesteps      | 16384       |
+| train/                  |             |
+|    approx_kl            | 0.020268817 |
+|    clip_fraction        | 0.245       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.06       |
+|    explained_variance   | 0.0788      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0347     |
+|    n_updates            | 70          |
+|    policy_gradient_loss | -0.0128     |
+|    value_loss           | 0.0156      |
+-----------------------------------------
+Episode 1740: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 1750: Reward=0.00, Length=1, Avg Reward (100)=0.07, Success Rate (100)=0.07
+Episode 1760: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 1770: Reward=0.00, Length=1, Avg Reward (100)=0.07, Success Rate (100)=0.07
+Episode 1780: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 1790: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 1800: Reward=0.00, Length=1, Avg Reward (100)=0.07, Success Rate (100)=0.07
+Episode 1810: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 1820: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 1830: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 1840: Reward=0.00, Length=1, Avg Reward (100)=0.06, Success Rate (100)=0.06
+Episode 1850: Reward=0.00, Length=1, Avg Reward (100)=0.06, Success Rate (100)=0.06
+Episode 1860: Reward=0.00, Length=1, Avg Reward (100)=0.05, Success Rate (100)=0.05
+Episode 1870: Reward=0.00, Length=1, Avg Reward (100)=0.05, Success Rate (100)=0.05
+Episode 1880: Reward=0.00, Length=1, Avg Reward (100)=0.04, Success Rate (100)=0.04
+Episode 1890: Reward=0.00, Length=1, Avg Reward (100)=0.06, Success Rate (100)=0.06
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 12.2        |
+|    ep_rew_mean          | 0.06        |
+| time/                   |             |
+|    fps                  | 1418        |
+|    iterations           | 9           |
+|    time_elapsed         | 12          |
+|    total_timesteps      | 18432       |
+| train/                  |             |
+|    approx_kl            | 0.009897787 |
+|    clip_fraction        | 0.114       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.07       |
+|    explained_variance   | 0.151       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.0282      |
+|    n_updates            | 80          |
+|    policy_gradient_loss | -0.0111     |
+|    value_loss           | 0.0367      |
+-----------------------------------------
+Episode 1900: Reward=0.00, Length=1, Avg Reward (100)=0.06, Success Rate (100)=0.06
+Episode 1910: Reward=1.00, Length=1, Avg Reward (100)=0.07, Success Rate (100)=0.07
+Episode 1920: Reward=0.00, Length=1, Avg Reward (100)=0.07, Success Rate (100)=0.07
+Episode 1930: Reward=0.00, Length=1, Avg Reward (100)=0.07, Success Rate (100)=0.07
+Episode 1940: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 1950: Reward=0.00, Length=1, Avg Reward (100)=0.09, Success Rate (100)=0.09
+Episode 1960: Reward=0.00, Length=1, Avg Reward (100)=0.11, Success Rate (100)=0.11
+Episode 1970: Reward=0.00, Length=1, Avg Reward (100)=0.11, Success Rate (100)=0.11
+Episode 1980: Reward=0.00, Length=1, Avg Reward (100)=0.13, Success Rate (100)=0.13
+Episode 1990: Reward=1.00, Length=1, Avg Reward (100)=0.13, Success Rate (100)=0.13
+Episode 2000: Reward=0.00, Length=1, Avg Reward (100)=0.14, Success Rate (100)=0.14
+Episode 2010: Reward=0.00, Length=1, Avg Reward (100)=0.10, Success Rate (100)=0.10
+Episode 2020: Reward=0.00, Length=1, Avg Reward (100)=0.11, Success Rate (100)=0.11
+Episode 2030: Reward=0.00, Length=1, Avg Reward (100)=0.10, Success Rate (100)=0.10
+Episode 2040: Reward=0.00, Length=1, Avg Reward (100)=0.09, Success Rate (100)=0.09
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 13.9        |
+|    ep_rew_mean          | 0.08        |
+| time/                   |             |
+|    fps                  | 1409        |
+|    iterations           | 10          |
+|    time_elapsed         | 14          |
+|    total_timesteps      | 20480       |
+| train/                  |             |
+|    approx_kl            | 0.013545061 |
+|    clip_fraction        | 0.128       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.06       |
+|    explained_variance   | 0.132       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.00887     |
+|    n_updates            | 90          |
+|    policy_gradient_loss | -0.0102     |
+|    value_loss           | 0.0319      |
+-----------------------------------------
+Episode 2050: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 2060: Reward=0.00, Length=1, Avg Reward (100)=0.07, Success Rate (100)=0.07
+Episode 2070: Reward=0.00, Length=1, Avg Reward (100)=0.07, Success Rate (100)=0.07
+Episode 2080: Reward=0.00, Length=1, Avg Reward (100)=0.06, Success Rate (100)=0.06
+Episode 2090: Reward=1.00, Length=1, Avg Reward (100)=0.07, Success Rate (100)=0.07
+Episode 2100: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 2110: Reward=0.00, Length=1, Avg Reward (100)=0.08, Success Rate (100)=0.08
+Episode 2120: Reward=0.00, Length=1, Avg Reward (100)=0.09, Success Rate (100)=0.09
+Episode 2130: Reward=0.00, Length=1, Avg Reward (100)=0.09, Success Rate (100)=0.09
+Episode 2140: Reward=0.00, Length=1, Avg Reward (100)=0.09, Success Rate (100)=0.09
+Episode 2150: Reward=0.00, Length=1, Avg Reward (100)=0.10, Success Rate (100)=0.10
+Episode 2160: Reward=0.00, Length=1, Avg Reward (100)=0.09, Success Rate (100)=0.09
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 17.5         |
+|    ep_rew_mean          | 0.1          |
+| time/                   |              |
+|    fps                  | 1410         |
+|    iterations           | 11           |
+|    time_elapsed         | 15           |
+|    total_timesteps      | 22528        |
+| train/                  |              |
+|    approx_kl            | 0.0155614205 |
+|    clip_fraction        | 0.144        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.945       |
+|    explained_variance   | 0.231        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.007        |
+|    n_updates            | 100          |
+|    policy_gradient_loss | -0.0126      |
+|    value_loss           | 0.0394       |
+------------------------------------------
+Episode 2170: Reward=0.00, Length=1, Avg Reward (100)=0.12, Success Rate (100)=0.12
+Episode 2180: Reward=0.00, Length=1, Avg Reward (100)=0.13, Success Rate (100)=0.13
+Episode 2190: Reward=0.00, Length=1, Avg Reward (100)=0.11, Success Rate (100)=0.11
+Episode 2200: Reward=0.00, Length=1, Avg Reward (100)=0.10, Success Rate (100)=0.10
+Episode 2210: Reward=0.00, Length=1, Avg Reward (100)=0.13, Success Rate (100)=0.13
+Episode 2220: Reward=0.00, Length=1, Avg Reward (100)=0.12, Success Rate (100)=0.12
+Episode 2230: Reward=0.00, Length=1, Avg Reward (100)=0.12, Success Rate (100)=0.12
+Episode 2240: Reward=0.00, Length=1, Avg Reward (100)=0.14, Success Rate (100)=0.14
+Episode 2250: Reward=0.00, Length=1, Avg Reward (100)=0.15, Success Rate (100)=0.15
+Episode 2260: Reward=0.00, Length=1, Avg Reward (100)=0.15, Success Rate (100)=0.15
+Episode 2270: Reward=0.00, Length=1, Avg Reward (100)=0.14, Success Rate (100)=0.14
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 17.8        |
+|    ep_rew_mean          | 0.13        |
+| time/                   |             |
+|    fps                  | 1411        |
+|    iterations           | 12          |
+|    time_elapsed         | 17          |
+|    total_timesteps      | 24576       |
+| train/                  |             |
+|    approx_kl            | 0.009117889 |
+|    clip_fraction        | 0.107       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.813      |
+|    explained_variance   | 0.225       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0119     |
+|    n_updates            | 110         |
+|    policy_gradient_loss | -0.0102     |
+|    value_loss           | 0.0341      |
+-----------------------------------------
+Episode 2280: Reward=0.00, Length=1, Avg Reward (100)=0.13, Success Rate (100)=0.13
+Episode 2290: Reward=0.00, Length=1, Avg Reward (100)=0.15, Success Rate (100)=0.15
+Episode 2300: Reward=0.00, Length=1, Avg Reward (100)=0.16, Success Rate (100)=0.16
+Episode 2310: Reward=1.00, Length=1, Avg Reward (100)=0.15, Success Rate (100)=0.15
+Episode 2320: Reward=0.00, Length=1, Avg Reward (100)=0.15, Success Rate (100)=0.15
+Episode 2330: Reward=0.00, Length=1, Avg Reward (100)=0.18, Success Rate (100)=0.18
+Episode 2340: Reward=0.00, Length=1, Avg Reward (100)=0.17, Success Rate (100)=0.17
+Episode 2350: Reward=0.00, Length=1, Avg Reward (100)=0.15, Success Rate (100)=0.15
+Episode 2360: Reward=0.00, Length=1, Avg Reward (100)=0.16, Success Rate (100)=0.16
+Episode 2370: Reward=0.00, Length=1, Avg Reward (100)=0.16, Success Rate (100)=0.16
+Episode 2380: Reward=0.00, Length=1, Avg Reward (100)=0.17, Success Rate (100)=0.17
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 18.6        |
+|    ep_rew_mean          | 0.19        |
+| time/                   |             |
+|    fps                  | 1412        |
+|    iterations           | 13          |
+|    time_elapsed         | 18          |
+|    total_timesteps      | 26624       |
+| train/                  |             |
+|    approx_kl            | 0.009437704 |
+|    clip_fraction        | 0.0834      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.757      |
+|    explained_variance   | 0.0432      |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.0155      |
+|    n_updates            | 120         |
+|    policy_gradient_loss | -0.0073     |
+|    value_loss           | 0.0511      |
+-----------------------------------------
+Episode 2390: Reward=0.00, Length=1, Avg Reward (100)=0.17, Success Rate (100)=0.17
+Episode 2400: Reward=0.00, Length=1, Avg Reward (100)=0.17, Success Rate (100)=0.17
+Episode 2410: Reward=0.00, Length=1, Avg Reward (100)=0.19, Success Rate (100)=0.19
+Episode 2420: Reward=0.00, Length=1, Avg Reward (100)=0.21, Success Rate (100)=0.21
+Episode 2430: Reward=1.00, Length=1, Avg Reward (100)=0.22, Success Rate (100)=0.22
+Episode 2440: Reward=0.00, Length=1, Avg Reward (100)=0.23, Success Rate (100)=0.23
+Episode 2450: Reward=1.00, Length=1, Avg Reward (100)=0.28, Success Rate (100)=0.28
+Episode 2460: Reward=0.00, Length=1, Avg Reward (100)=0.29, Success Rate (100)=0.29
+Episode 2470: Reward=0.00, Length=1, Avg Reward (100)=0.30, Success Rate (100)=0.30
+Episode 2480: Reward=0.00, Length=1, Avg Reward (100)=0.32, Success Rate (100)=0.32
+Episode 2490: Reward=0.00, Length=1, Avg Reward (100)=0.31, Success Rate (100)=0.31
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 19.8        |
+|    ep_rew_mean          | 0.31        |
+| time/                   |             |
+|    fps                  | 1413        |
+|    iterations           | 14          |
+|    time_elapsed         | 20          |
+|    total_timesteps      | 28672       |
+| train/                  |             |
+|    approx_kl            | 0.005744818 |
+|    clip_fraction        | 0.0598      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.672      |
+|    explained_variance   | 0.14        |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.0107      |
+|    n_updates            | 130         |
+|    policy_gradient_loss | -0.00744    |
+|    value_loss           | 0.0554      |
+-----------------------------------------
+Episode 2500: Reward=0.00, Length=1, Avg Reward (100)=0.32, Success Rate (100)=0.32
+Episode 2510: Reward=1.00, Length=1, Avg Reward (100)=0.31, Success Rate (100)=0.31
+Episode 2520: Reward=0.00, Length=1, Avg Reward (100)=0.30, Success Rate (100)=0.30
+Episode 2530: Reward=0.00, Length=1, Avg Reward (100)=0.26, Success Rate (100)=0.26
+Episode 2540: Reward=0.00, Length=1, Avg Reward (100)=0.25, Success Rate (100)=0.25
+Episode 2550: Reward=1.00, Length=1, Avg Reward (100)=0.25, Success Rate (100)=0.25
+Episode 2560: Reward=1.00, Length=1, Avg Reward (100)=0.26, Success Rate (100)=0.26
+Episode 2570: Reward=0.00, Length=1, Avg Reward (100)=0.23, Success Rate (100)=0.23
+Episode 2580: Reward=0.00, Length=1, Avg Reward (100)=0.21, Success Rate (100)=0.21
+Episode 2590: Reward=0.00, Length=1, Avg Reward (100)=0.20, Success Rate (100)=0.20
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 20.3         |
+|    ep_rew_mean          | 0.19         |
+| time/                   |              |
+|    fps                  | 1413         |
+|    iterations           | 15           |
+|    time_elapsed         | 21           |
+|    total_timesteps      | 30720        |
+| train/                  |              |
+|    approx_kl            | 0.0044142185 |
+|    clip_fraction        | 0.0401       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.653       |
+|    explained_variance   | 0.125        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.0402       |
+|    n_updates            | 140          |
+|    policy_gradient_loss | -0.00698     |
+|    value_loss           | 0.0756       |
+------------------------------------------
+Episode 2600: Reward=0.00, Length=1, Avg Reward (100)=0.19, Success Rate (100)=0.19
+Episode 2610: Reward=0.00, Length=1, Avg Reward (100)=0.18, Success Rate (100)=0.18
+Episode 2620: Reward=0.00, Length=1, Avg Reward (100)=0.18, Success Rate (100)=0.18
+Episode 2630: Reward=0.00, Length=1, Avg Reward (100)=0.20, Success Rate (100)=0.20
+Episode 2640: Reward=0.00, Length=1, Avg Reward (100)=0.23, Success Rate (100)=0.23
+Episode 2650: Reward=1.00, Length=1, Avg Reward (100)=0.19, Success Rate (100)=0.19
+Episode 2660: Reward=0.00, Length=1, Avg Reward (100)=0.18, Success Rate (100)=0.18
+Episode 2670: Reward=1.00, Length=1, Avg Reward (100)=0.21, Success Rate (100)=0.21
+Episode 2680: Reward=0.00, Length=1, Avg Reward (100)=0.21, Success Rate (100)=0.21
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 22.7        |
+|    ep_rew_mean          | 0.21        |
+| time/                   |             |
+|    fps                  | 1413        |
+|    iterations           | 16          |
+|    time_elapsed         | 23          |
+|    total_timesteps      | 32768       |
+| train/                  |             |
+|    approx_kl            | 0.004255209 |
+|    clip_fraction        | 0.042       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.612      |
+|    explained_variance   | 0.107       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.0131      |
+|    n_updates            | 150         |
+|    policy_gradient_loss | -0.0074     |
+|    value_loss           | 0.0538      |
+-----------------------------------------
+Episode 2690: Reward=0.00, Length=1, Avg Reward (100)=0.22, Success Rate (100)=0.22
+Episode 2700: Reward=0.00, Length=1, Avg Reward (100)=0.21, Success Rate (100)=0.21
+Episode 2710: Reward=1.00, Length=1, Avg Reward (100)=0.23, Success Rate (100)=0.23
+Episode 2720: Reward=0.00, Length=1, Avg Reward (100)=0.22, Success Rate (100)=0.22
+Episode 2730: Reward=1.00, Length=1, Avg Reward (100)=0.23, Success Rate (100)=0.23
+Episode 2740: Reward=0.00, Length=1, Avg Reward (100)=0.22, Success Rate (100)=0.22
+Episode 2750: Reward=0.00, Length=1, Avg Reward (100)=0.21, Success Rate (100)=0.21
+Episode 2760: Reward=1.00, Length=1, Avg Reward (100)=0.20, Success Rate (100)=0.20
+Episode 2770: Reward=0.00, Length=1, Avg Reward (100)=0.19, Success Rate (100)=0.19
+Episode 2780: Reward=0.00, Length=1, Avg Reward (100)=0.18, Success Rate (100)=0.18
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 20.9         |
+|    ep_rew_mean          | 0.18         |
+| time/                   |              |
+|    fps                  | 1414         |
+|    iterations           | 17           |
+|    time_elapsed         | 24           |
+|    total_timesteps      | 34816        |
+| train/                  |              |
+|    approx_kl            | 0.0041748756 |
+|    clip_fraction        | 0.0459       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.63        |
+|    explained_variance   | 0.102        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.00946      |
+|    n_updates            | 160          |
+|    policy_gradient_loss | -0.00667     |
+|    value_loss           | 0.054        |
+------------------------------------------
+Episode 2790: Reward=0.00, Length=1, Avg Reward (100)=0.17, Success Rate (100)=0.17
+Episode 2800: Reward=0.00, Length=1, Avg Reward (100)=0.19, Success Rate (100)=0.19
+Episode 2810: Reward=1.00, Length=1, Avg Reward (100)=0.17, Success Rate (100)=0.17
+Episode 2820: Reward=0.00, Length=1, Avg Reward (100)=0.16, Success Rate (100)=0.16
+Episode 2830: Reward=0.00, Length=1, Avg Reward (100)=0.13, Success Rate (100)=0.13
+Episode 2840: Reward=0.00, Length=1, Avg Reward (100)=0.11, Success Rate (100)=0.11
+Episode 2850: Reward=0.00, Length=1, Avg Reward (100)=0.16, Success Rate (100)=0.16
+Episode 2860: Reward=0.00, Length=1, Avg Reward (100)=0.16, Success Rate (100)=0.16
+Episode 2870: Reward=1.00, Length=1, Avg Reward (100)=0.18, Success Rate (100)=0.18
+Episode 2880: Reward=0.00, Length=1, Avg Reward (100)=0.19, Success Rate (100)=0.19
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 19.6        |
+|    ep_rew_mean          | 0.18        |
+| time/                   |             |
+|    fps                  | 1415        |
+|    iterations           | 18          |
+|    time_elapsed         | 26          |
+|    total_timesteps      | 36864       |
+| train/                  |             |
+|    approx_kl            | 0.006134104 |
+|    clip_fraction        | 0.0915      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.552      |
+|    explained_variance   | 0.115       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.011       |
+|    n_updates            | 170         |
+|    policy_gradient_loss | -0.00788    |
+|    value_loss           | 0.0529      |
+-----------------------------------------
+Episode 2890: Reward=0.00, Length=1, Avg Reward (100)=0.20, Success Rate (100)=0.20
+Episode 2900: Reward=0.00, Length=1, Avg Reward (100)=0.21, Success Rate (100)=0.21
+Episode 2910: Reward=0.00, Length=1, Avg Reward (100)=0.20, Success Rate (100)=0.20
+Episode 2920: Reward=0.00, Length=1, Avg Reward (100)=0.22, Success Rate (100)=0.22
+Episode 2930: Reward=0.00, Length=1, Avg Reward (100)=0.25, Success Rate (100)=0.25
+Episode 2940: Reward=1.00, Length=1, Avg Reward (100)=0.27, Success Rate (100)=0.27
+Episode 2950: Reward=1.00, Length=1, Avg Reward (100)=0.27, Success Rate (100)=0.27
+Episode 2960: Reward=0.00, Length=1, Avg Reward (100)=0.27, Success Rate (100)=0.27
+Episode 2970: Reward=1.00, Length=1, Avg Reward (100)=0.25, Success Rate (100)=0.25
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 23.2        |
+|    ep_rew_mean          | 0.25        |
+| time/                   |             |
+|    fps                  | 1415        |
+|    iterations           | 19          |
+|    time_elapsed         | 27          |
+|    total_timesteps      | 38912       |
+| train/                  |             |
+|    approx_kl            | 0.005473624 |
+|    clip_fraction        | 0.0769      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.495      |
+|    explained_variance   | 0.124       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.0382      |
+|    n_updates            | 180         |
+|    policy_gradient_loss | -0.00781    |
+|    value_loss           | 0.0526      |
+-----------------------------------------
+Episode 2980: Reward=0.00, Length=1, Avg Reward (100)=0.26, Success Rate (100)=0.26
+Episode 2990: Reward=0.00, Length=1, Avg Reward (100)=0.29, Success Rate (100)=0.29
+Episode 3000: Reward=0.00, Length=1, Avg Reward (100)=0.29, Success Rate (100)=0.29
+Episode 3010: Reward=1.00, Length=1, Avg Reward (100)=0.32, Success Rate (100)=0.32
+Episode 3020: Reward=0.00, Length=1, Avg Reward (100)=0.33, Success Rate (100)=0.33
+Episode 3030: Reward=0.00, Length=1, Avg Reward (100)=0.32, Success Rate (100)=0.32
+Episode 3040: Reward=0.00, Length=1, Avg Reward (100)=0.33, Success Rate (100)=0.33
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 27.3         |
+|    ep_rew_mean          | 0.33         |
+| time/                   |              |
+|    fps                  | 1415         |
+|    iterations           | 20           |
+|    time_elapsed         | 28           |
+|    total_timesteps      | 40960        |
+| train/                  |              |
+|    approx_kl            | 0.0037430176 |
+|    clip_fraction        | 0.0504       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.43        |
+|    explained_variance   | 0.139        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.0168       |
+|    n_updates            | 190          |
+|    policy_gradient_loss | -0.00506     |
+|    value_loss           | 0.0564       |
+------------------------------------------
+Episode 3050: Reward=0.00, Length=1, Avg Reward (100)=0.32, Success Rate (100)=0.32
+Episode 3060: Reward=0.00, Length=1, Avg Reward (100)=0.33, Success Rate (100)=0.33
+Episode 3070: Reward=1.00, Length=1, Avg Reward (100)=0.34, Success Rate (100)=0.34
+Episode 3080: Reward=1.00, Length=1, Avg Reward (100)=0.37, Success Rate (100)=0.37
+Episode 3090: Reward=1.00, Length=1, Avg Reward (100)=0.35, Success Rate (100)=0.35
+Episode 3100: Reward=0.00, Length=1, Avg Reward (100)=0.36, Success Rate (100)=0.36
+Episode 3110: Reward=0.00, Length=1, Avg Reward (100)=0.37, Success Rate (100)=0.37
+Episode 3120: Reward=1.00, Length=1, Avg Reward (100)=0.36, Success Rate (100)=0.36
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 27.6         |
+|    ep_rew_mean          | 0.36         |
+| time/                   |              |
+|    fps                  | 1409         |
+|    iterations           | 21           |
+|    time_elapsed         | 30           |
+|    total_timesteps      | 43008        |
+| train/                  |              |
+|    approx_kl            | 0.0025851806 |
+|    clip_fraction        | 0.0366       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.376       |
+|    explained_variance   | 0.2          |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.0218       |
+|    n_updates            | 200          |
+|    policy_gradient_loss | -0.00583     |
+|    value_loss           | 0.0631       |
+------------------------------------------
+Episode 3130: Reward=0.00, Length=1, Avg Reward (100)=0.38, Success Rate (100)=0.38
+Episode 3140: Reward=0.00, Length=1, Avg Reward (100)=0.38, Success Rate (100)=0.38
+Episode 3150: Reward=0.00, Length=1, Avg Reward (100)=0.38, Success Rate (100)=0.38
+Episode 3160: Reward=0.00, Length=1, Avg Reward (100)=0.39, Success Rate (100)=0.39
+Episode 3170: Reward=1.00, Length=1, Avg Reward (100)=0.41, Success Rate (100)=0.41
+Episode 3180: Reward=0.00, Length=1, Avg Reward (100)=0.39, Success Rate (100)=0.39
+Episode 3190: Reward=0.00, Length=1, Avg Reward (100)=0.39, Success Rate (100)=0.39
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 27.6         |
+|    ep_rew_mean          | 0.37         |
+| time/                   |              |
+|    fps                  | 1410         |
+|    iterations           | 22           |
+|    time_elapsed         | 31           |
+|    total_timesteps      | 45056        |
+| train/                  |              |
+|    approx_kl            | 0.0025653462 |
+|    clip_fraction        | 0.0308       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.351       |
+|    explained_variance   | 0.186        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.0278       |
+|    n_updates            | 210          |
+|    policy_gradient_loss | -0.0035      |
+|    value_loss           | 0.0634       |
+------------------------------------------
+Episode 3200: Reward=0.00, Length=1, Avg Reward (100)=0.36, Success Rate (100)=0.36
+Episode 3210: Reward=1.00, Length=1, Avg Reward (100)=0.34, Success Rate (100)=0.34
+Episode 3220: Reward=0.00, Length=1, Avg Reward (100)=0.38, Success Rate (100)=0.38
+Episode 3230: Reward=0.00, Length=1, Avg Reward (100)=0.38, Success Rate (100)=0.38
+Episode 3240: Reward=0.00, Length=1, Avg Reward (100)=0.38, Success Rate (100)=0.38
+Episode 3250: Reward=0.00, Length=1, Avg Reward (100)=0.37, Success Rate (100)=0.37
+Episode 3260: Reward=0.00, Length=1, Avg Reward (100)=0.39, Success Rate (100)=0.39
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 28.6         |
+|    ep_rew_mean          | 0.4          |
+| time/                   |              |
+|    fps                  | 1410         |
+|    iterations           | 23           |
+|    time_elapsed         | 33           |
+|    total_timesteps      | 47104        |
+| train/                  |              |
+|    approx_kl            | 0.0018195251 |
+|    clip_fraction        | 0.0301       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.314       |
+|    explained_variance   | 0.0846       |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.0199       |
+|    n_updates            | 220          |
+|    policy_gradient_loss | -0.005       |
+|    value_loss           | 0.0658       |
+------------------------------------------
+Episode 3270: Reward=0.00, Length=1, Avg Reward (100)=0.38, Success Rate (100)=0.38
+Episode 3280: Reward=0.00, Length=1, Avg Reward (100)=0.38, Success Rate (100)=0.38
+Episode 3290: Reward=1.00, Length=1, Avg Reward (100)=0.40, Success Rate (100)=0.40
+Episode 3300: Reward=1.00, Length=1, Avg Reward (100)=0.44, Success Rate (100)=0.44
+Episode 3310: Reward=0.00, Length=1, Avg Reward (100)=0.46, Success Rate (100)=0.46
+Episode 3320: Reward=0.00, Length=1, Avg Reward (100)=0.41, Success Rate (100)=0.41
+Episode 3330: Reward=1.00, Length=1, Avg Reward (100)=0.43, Success Rate (100)=0.43
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 30.7         |
+|    ep_rew_mean          | 0.41         |
+| time/                   |              |
+|    fps                  | 1411         |
+|    iterations           | 24           |
+|    time_elapsed         | 34           |
+|    total_timesteps      | 49152        |
+| train/                  |              |
+|    approx_kl            | 0.0016835876 |
+|    clip_fraction        | 0.0274       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.285       |
+|    explained_variance   | 0.178        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.0236       |
+|    n_updates            | 230          |
+|    policy_gradient_loss | -0.00399     |
+|    value_loss           | 0.055        |
+------------------------------------------
+Episode 3340: Reward=1.00, Length=1, Avg Reward (100)=0.42, Success Rate (100)=0.42
+Episode 3350: Reward=1.00, Length=1, Avg Reward (100)=0.42, Success Rate (100)=0.42
+Episode 3360: Reward=0.00, Length=1, Avg Reward (100)=0.41, Success Rate (100)=0.41
+Episode 3370: Reward=0.00, Length=1, Avg Reward (100)=0.42, Success Rate (100)=0.42
+Episode 3380: Reward=0.00, Length=1, Avg Reward (100)=0.41, Success Rate (100)=0.41
+Episode 3390: Reward=0.00, Length=1, Avg Reward (100)=0.40, Success Rate (100)=0.40
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 34.3         |
+|    ep_rew_mean          | 0.4          |
+| time/                   |              |
+|    fps                  | 1412         |
+|    iterations           | 25           |
+|    time_elapsed         | 36           |
+|    total_timesteps      | 51200        |
+| train/                  |              |
+|    approx_kl            | 0.0020130025 |
+|    clip_fraction        | 0.0242       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.261       |
+|    explained_variance   | 0.145        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.02         |
+|    n_updates            | 240          |
+|    policy_gradient_loss | -0.0037      |
+|    value_loss           | 0.0636       |
+------------------------------------------
+Episode 3400: Reward=0.00, Length=1, Avg Reward (100)=0.37, Success Rate (100)=0.37
+Episode 3410: Reward=1.00, Length=1, Avg Reward (100)=0.37, Success Rate (100)=0.37
+Episode 3420: Reward=1.00, Length=1, Avg Reward (100)=0.40, Success Rate (100)=0.40
+Episode 3430: Reward=1.00, Length=1, Avg Reward (100)=0.37, Success Rate (100)=0.37
+Episode 3440: Reward=1.00, Length=1, Avg Reward (100)=0.40, Success Rate (100)=0.40
+Episode 3450: Reward=1.00, Length=1, Avg Reward (100)=0.43, Success Rate (100)=0.43
+Episode 3460: Reward=0.00, Length=1, Avg Reward (100)=0.41, Success Rate (100)=0.41
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 31.8         |
+|    ep_rew_mean          | 0.4          |
+| time/                   |              |
+|    fps                  | 1413         |
+|    iterations           | 26           |
+|    time_elapsed         | 37           |
+|    total_timesteps      | 53248        |
+| train/                  |              |
+|    approx_kl            | 0.0014022533 |
+|    clip_fraction        | 0.0237       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.241       |
+|    explained_variance   | 0.105        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.0213       |
+|    n_updates            | 250          |
+|    policy_gradient_loss | -0.00469     |
+|    value_loss           | 0.0493       |
+------------------------------------------
+Episode 3470: Reward=1.00, Length=1, Avg Reward (100)=0.39, Success Rate (100)=0.39
+Episode 3480: Reward=0.00, Length=1, Avg Reward (100)=0.39, Success Rate (100)=0.39
+Episode 3490: Reward=1.00, Length=1, Avg Reward (100)=0.38, Success Rate (100)=0.38
+Episode 3500: Reward=1.00, Length=1, Avg Reward (100)=0.41, Success Rate (100)=0.41
+Episode 3510: Reward=0.00, Length=1, Avg Reward (100)=0.42, Success Rate (100)=0.42
+Episode 3520: Reward=1.00, Length=1, Avg Reward (100)=0.40, Success Rate (100)=0.40
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 30.1         |
+|    ep_rew_mean          | 0.43         |
+| time/                   |              |
+|    fps                  | 1413         |
+|    iterations           | 27           |
+|    time_elapsed         | 39           |
+|    total_timesteps      | 55296        |
+| train/                  |              |
+|    approx_kl            | 0.0027205741 |
+|    clip_fraction        | 0.0394       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.232       |
+|    explained_variance   | 0.14         |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.0115       |
+|    n_updates            | 260          |
+|    policy_gradient_loss | -0.00575     |
+|    value_loss           | 0.0621       |
+------------------------------------------
+Episode 3530: Reward=1.00, Length=1, Avg Reward (100)=0.45, Success Rate (100)=0.45
+Episode 3540: Reward=1.00, Length=1, Avg Reward (100)=0.44, Success Rate (100)=0.44
+Episode 3550: Reward=1.00, Length=1, Avg Reward (100)=0.44, Success Rate (100)=0.44
+Episode 3560: Reward=1.00, Length=1, Avg Reward (100)=0.47, Success Rate (100)=0.47
+Episode 3570: Reward=0.00, Length=1, Avg Reward (100)=0.50, Success Rate (100)=0.50
+Episode 3580: Reward=1.00, Length=1, Avg Reward (100)=0.50, Success Rate (100)=0.50
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 33.8         |
+|    ep_rew_mean          | 0.54         |
+| time/                   |              |
+|    fps                  | 1414         |
+|    iterations           | 28           |
+|    time_elapsed         | 40           |
+|    total_timesteps      | 57344        |
+| train/                  |              |
+|    approx_kl            | 0.0013385823 |
+|    clip_fraction        | 0.0287       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.198       |
+|    explained_variance   | 0.133        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.0225       |
+|    n_updates            | 270          |
+|    policy_gradient_loss | -0.00439     |
+|    value_loss           | 0.0557       |
+------------------------------------------
+Episode 3590: Reward=0.00, Length=1, Avg Reward (100)=0.54, Success Rate (100)=0.54
+Episode 3600: Reward=0.00, Length=1, Avg Reward (100)=0.50, Success Rate (100)=0.50
+Episode 3610: Reward=0.00, Length=1, Avg Reward (100)=0.49, Success Rate (100)=0.49
+Episode 3620: Reward=0.00, Length=1, Avg Reward (100)=0.52, Success Rate (100)=0.52
+Episode 3630: Reward=1.00, Length=1, Avg Reward (100)=0.50, Success Rate (100)=0.50
+Episode 3640: Reward=0.00, Length=1, Avg Reward (100)=0.50, Success Rate (100)=0.50
+Episode 3650: Reward=0.00, Length=1, Avg Reward (100)=0.50, Success Rate (100)=0.50
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 33.2         |
+|    ep_rew_mean          | 0.49         |
+| time/                   |              |
+|    fps                  | 1414         |
+|    iterations           | 29           |
+|    time_elapsed         | 41           |
+|    total_timesteps      | 59392        |
+| train/                  |              |
+|    approx_kl            | 0.0010675087 |
+|    clip_fraction        | 0.0209       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.176       |
+|    explained_variance   | 0.158        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.0378       |
+|    n_updates            | 280          |
+|    policy_gradient_loss | -0.00265     |
+|    value_loss           | 0.0571       |
+------------------------------------------
+Episode 3660: Reward=0.00, Length=1, Avg Reward (100)=0.48, Success Rate (100)=0.48
+Episode 3670: Reward=1.00, Length=1, Avg Reward (100)=0.47, Success Rate (100)=0.47
+Episode 3680: Reward=1.00, Length=1, Avg Reward (100)=0.49, Success Rate (100)=0.49
+Episode 3690: Reward=1.00, Length=1, Avg Reward (100)=0.47, Success Rate (100)=0.47
+Episode 3700: Reward=1.00, Length=1, Avg Reward (100)=0.52, Success Rate (100)=0.52
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 35.3        |
+|    ep_rew_mean          | 0.53        |
+| time/                   |             |
+|    fps                  | 1415        |
+|    iterations           | 30          |
+|    time_elapsed         | 43          |
+|    total_timesteps      | 61440       |
+| train/                  |             |
+|    approx_kl            | 0.001584919 |
+|    clip_fraction        | 0.0243      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.141      |
+|    explained_variance   | 0.0962      |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.032       |
+|    n_updates            | 290         |
+|    policy_gradient_loss | -0.00451    |
+|    value_loss           | 0.063       |
+-----------------------------------------
+Episode 3710: Reward=1.00, Length=1, Avg Reward (100)=0.52, Success Rate (100)=0.52
+Episode 3720: Reward=1.00, Length=1, Avg Reward (100)=0.56, Success Rate (100)=0.56
+Episode 3730: Reward=1.00, Length=1, Avg Reward (100)=0.57, Success Rate (100)=0.57
+Episode 3740: Reward=0.00, Length=1, Avg Reward (100)=0.58, Success Rate (100)=0.58
+Episode 3750: Reward=1.00, Length=1, Avg Reward (100)=0.59, Success Rate (100)=0.59
+Episode 3760: Reward=1.00, Length=1, Avg Reward (100)=0.62, Success Rate (100)=0.62
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 36.6         |
+|    ep_rew_mean          | 0.62         |
+| time/                   |              |
+|    fps                  | 1412         |
+|    iterations           | 31           |
+|    time_elapsed         | 44           |
+|    total_timesteps      | 63488        |
+| train/                  |              |
+|    approx_kl            | 0.0011972729 |
+|    clip_fraction        | 0.0127       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.131       |
+|    explained_variance   | 0.12         |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.0254       |
+|    n_updates            | 300          |
+|    policy_gradient_loss | -0.00204     |
+|    value_loss           | 0.0463       |
+------------------------------------------
+Episode 3770: Reward=1.00, Length=1, Avg Reward (100)=0.65, Success Rate (100)=0.65
+Episode 3780: Reward=1.00, Length=1, Avg Reward (100)=0.66, Success Rate (100)=0.66
+Episode 3790: Reward=1.00, Length=1, Avg Reward (100)=0.69, Success Rate (100)=0.69
+Episode 3800: Reward=0.00, Length=1, Avg Reward (100)=0.71, Success Rate (100)=0.71
+Episode 3810: Reward=1.00, Length=1, Avg Reward (100)=0.73, Success Rate (100)=0.73
+Episode 3820: Reward=1.00, Length=1, Avg Reward (100)=0.70, Success Rate (100)=0.70
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 34            |
+|    ep_rew_mean          | 0.68          |
+| time/                   |               |
+|    fps                  | 1412          |
+|    iterations           | 32            |
+|    time_elapsed         | 46            |
+|    total_timesteps      | 65536         |
+| train/                  |               |
+|    approx_kl            | 0.00088443456 |
+|    clip_fraction        | 0.0146        |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -0.128        |
+|    explained_variance   | 0.204         |
+|    learning_rate        | 0.0003        |
+|    loss                 | 0.0157        |
+|    n_updates            | 310           |
+|    policy_gradient_loss | -0.00318      |
+|    value_loss           | 0.0515        |
+-------------------------------------------
+Episode 3830: Reward=1.00, Length=1, Avg Reward (100)=0.68, Success Rate (100)=0.68
+Episode 3840: Reward=0.00, Length=1, Avg Reward (100)=0.68, Success Rate (100)=0.68
+Episode 3850: Reward=1.00, Length=1, Avg Reward (100)=0.67, Success Rate (100)=0.67
+Episode 3860: Reward=1.00, Length=1, Avg Reward (100)=0.69, Success Rate (100)=0.69
+Episode 3870: Reward=1.00, Length=1, Avg Reward (100)=0.67, Success Rate (100)=0.67
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 36.3         |
+|    ep_rew_mean          | 0.68         |
+| time/                   |              |
+|    fps                  | 1412         |
+|    iterations           | 33           |
+|    time_elapsed         | 47           |
+|    total_timesteps      | 67584        |
+| train/                  |              |
+|    approx_kl            | 0.0010398112 |
+|    clip_fraction        | 0.0136       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.119       |
+|    explained_variance   | 0.2          |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.0222       |
+|    n_updates            | 320          |
+|    policy_gradient_loss | -0.00207     |
+|    value_loss           | 0.0501       |
+------------------------------------------
+Episode 3880: Reward=0.00, Length=1, Avg Reward (100)=0.67, Success Rate (100)=0.67
+Episode 3890: Reward=0.00, Length=1, Avg Reward (100)=0.64, Success Rate (100)=0.64
+Episode 3900: Reward=0.00, Length=1, Avg Reward (100)=0.59, Success Rate (100)=0.59
+Episode 3910: Reward=1.00, Length=1, Avg Reward (100)=0.59, Success Rate (100)=0.59
+Episode 3920: Reward=1.00, Length=1, Avg Reward (100)=0.56, Success Rate (100)=0.56
+Episode 3930: Reward=1.00, Length=1, Avg Reward (100)=0.56, Success Rate (100)=0.56
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 36.7          |
+|    ep_rew_mean          | 0.57          |
+| time/                   |               |
+|    fps                  | 1413          |
+|    iterations           | 34            |
+|    time_elapsed         | 49            |
+|    total_timesteps      | 69632         |
+| train/                  |               |
+|    approx_kl            | 0.00094019645 |
+|    clip_fraction        | 0.0137        |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -0.111        |
+|    explained_variance   | 0.235         |
+|    learning_rate        | 0.0003        |
+|    loss                 | 0.00943       |
+|    n_updates            | 330           |
+|    policy_gradient_loss | -0.00292      |
+|    value_loss           | 0.0437        |
+-------------------------------------------
+Episode 3940: Reward=1.00, Length=1, Avg Reward (100)=0.56, Success Rate (100)=0.56
+Episode 3950: Reward=1.00, Length=1, Avg Reward (100)=0.56, Success Rate (100)=0.56
+Episode 3960: Reward=1.00, Length=1, Avg Reward (100)=0.53, Success Rate (100)=0.53
+Episode 3970: Reward=1.00, Length=1, Avg Reward (100)=0.53, Success Rate (100)=0.53
+Episode 3980: Reward=0.00, Length=1, Avg Reward (100)=0.53, Success Rate (100)=0.53
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 37.5         |
+|    ep_rew_mean          | 0.53         |
+| time/                   |              |
+|    fps                  | 1414         |
+|    iterations           | 35           |
+|    time_elapsed         | 50           |
+|    total_timesteps      | 71680        |
+| train/                  |              |
+|    approx_kl            | 0.0017966011 |
+|    clip_fraction        | 0.014        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.0977      |
+|    explained_variance   | 0.0602       |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.0395       |
+|    n_updates            | 340          |
+|    policy_gradient_loss | -0.00299     |
+|    value_loss           | 0.0575       |
+------------------------------------------
+Episode 3990: Reward=1.00, Length=1, Avg Reward (100)=0.56, Success Rate (100)=0.56
+Episode 4000: Reward=1.00, Length=1, Avg Reward (100)=0.58, Success Rate (100)=0.58
+Episode 4010: Reward=0.00, Length=1, Avg Reward (100)=0.57, Success Rate (100)=0.57
+Episode 4020: Reward=1.00, Length=1, Avg Reward (100)=0.61, Success Rate (100)=0.61
+Episode 4030: Reward=0.00, Length=1, Avg Reward (100)=0.61, Success Rate (100)=0.61
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 40.2         |
+|    ep_rew_mean          | 0.59         |
+| time/                   |              |
+|    fps                  | 1414         |
+|    iterations           | 36           |
+|    time_elapsed         | 52           |
+|    total_timesteps      | 73728        |
+| train/                  |              |
+|    approx_kl            | 0.0017664552 |
+|    clip_fraction        | 0.0105       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.095       |
+|    explained_variance   | 0.195        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.0311       |
+|    n_updates            | 350          |
+|    policy_gradient_loss | -0.00182     |
+|    value_loss           | 0.0421       |
+------------------------------------------
+Episode 4040: Reward=0.00, Length=1, Avg Reward (100)=0.60, Success Rate (100)=0.60
+Episode 4050: Reward=1.00, Length=1, Avg Reward (100)=0.62, Success Rate (100)=0.62
+Episode 4060: Reward=0.00, Length=1, Avg Reward (100)=0.61, Success Rate (100)=0.61
+Episode 4070: Reward=0.00, Length=1, Avg Reward (100)=0.60, Success Rate (100)=0.60
+Episode 4080: Reward=1.00, Length=1, Avg Reward (100)=0.61, Success Rate (100)=0.61
+Episode 4090: Reward=1.00, Length=1, Avg Reward (100)=0.61, Success Rate (100)=0.61
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 37.3         |
+|    ep_rew_mean          | 0.59         |
+| time/                   |              |
+|    fps                  | 1415         |
+|    iterations           | 37           |
+|    time_elapsed         | 53           |
+|    total_timesteps      | 75776        |
+| train/                  |              |
+|    approx_kl            | 0.0006134159 |
+|    clip_fraction        | 0.00771      |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.114       |
+|    explained_variance   | 0.135        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.0195       |
+|    n_updates            | 360          |
+|    policy_gradient_loss | -0.00106     |
+|    value_loss           | 0.0511       |
+------------------------------------------
+Episode 4100: Reward=1.00, Length=1, Avg Reward (100)=0.62, Success Rate (100)=0.62
+Episode 4110: Reward=1.00, Length=1, Avg Reward (100)=0.62, Success Rate (100)=0.62
+Episode 4120: Reward=1.00, Length=1, Avg Reward (100)=0.63, Success Rate (100)=0.63
+Episode 4130: Reward=1.00, Length=1, Avg Reward (100)=0.65, Success Rate (100)=0.65
+Episode 4140: Reward=0.00, Length=1, Avg Reward (100)=0.68, Success Rate (100)=0.68
+Episode 4150: Reward=1.00, Length=1, Avg Reward (100)=0.66, Success Rate (100)=0.66
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 35.7         |
+|    ep_rew_mean          | 0.66         |
+| time/                   |              |
+|    fps                  | 1415         |
+|    iterations           | 38           |
+|    time_elapsed         | 54           |
+|    total_timesteps      | 77824        |
+| train/                  |              |
+|    approx_kl            | 0.0007063001 |
+|    clip_fraction        | 0.0111       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.114       |
+|    explained_variance   | 0.184        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.0222       |
+|    n_updates            | 370          |
+|    policy_gradient_loss | -0.00124     |
+|    value_loss           | 0.0513       |
+------------------------------------------
+Episode 4160: Reward=1.00, Length=1, Avg Reward (100)=0.69, Success Rate (100)=0.69
+Episode 4170: Reward=1.00, Length=1, Avg Reward (100)=0.72, Success Rate (100)=0.72
+Episode 4180: Reward=1.00, Length=1, Avg Reward (100)=0.73, Success Rate (100)=0.73
+Episode 4190: Reward=0.00, Length=1, Avg Reward (100)=0.71, Success Rate (100)=0.71
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 38.8         |
+|    ep_rew_mean          | 0.71         |
+| time/                   |              |
+|    fps                  | 1415         |
+|    iterations           | 39           |
+|    time_elapsed         | 56           |
+|    total_timesteps      | 79872        |
+| train/                  |              |
+|    approx_kl            | 0.0009486076 |
+|    clip_fraction        | 0.0153       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.104       |
+|    explained_variance   | 0.137        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.02         |
+|    n_updates            | 380          |
+|    policy_gradient_loss | -0.00227     |
+|    value_loss           | 0.0505       |
+------------------------------------------
+Episode 4200: Reward=1.00, Length=1, Avg Reward (100)=0.70, Success Rate (100)=0.70
+Episode 4210: Reward=1.00, Length=1, Avg Reward (100)=0.72, Success Rate (100)=0.72
+Episode 4220: Reward=1.00, Length=1, Avg Reward (100)=0.72, Success Rate (100)=0.72
+Episode 4230: Reward=1.00, Length=1, Avg Reward (100)=0.72, Success Rate (100)=0.72
+Episode 4240: Reward=0.00, Length=1, Avg Reward (100)=0.73, Success Rate (100)=0.73
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 41.3          |
+|    ep_rew_mean          | 0.75          |
+| time/                   |               |
+|    fps                  | 1416          |
+|    iterations           | 40            |
+|    time_elapsed         | 57            |
+|    total_timesteps      | 81920         |
+| train/                  |               |
+|    approx_kl            | 0.00065181206 |
+|    clip_fraction        | 0.0117        |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -0.0867       |
+|    explained_variance   | 0.258         |
+|    learning_rate        | 0.0003        |
+|    loss                 | -0.00978      |
+|    n_updates            | 390           |
+|    policy_gradient_loss | -0.0014       |
+|    value_loss           | 0.0345        |
+-------------------------------------------
+Episode 4250: Reward=1.00, Length=1, Avg Reward (100)=0.75, Success Rate (100)=0.75
+Episode 4260: Reward=0.00, Length=1, Avg Reward (100)=0.72, Success Rate (100)=0.72
+Episode 4270: Reward=0.00, Length=1, Avg Reward (100)=0.71, Success Rate (100)=0.71
+Episode 4280: Reward=1.00, Length=1, Avg Reward (100)=0.69, Success Rate (100)=0.69
+Episode 4290: Reward=1.00, Length=1, Avg Reward (100)=0.70, Success Rate (100)=0.70
+Episode 4300: Reward=1.00, Length=1, Avg Reward (100)=0.73, Success Rate (100)=0.73
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 37.9         |
+|    ep_rew_mean          | 0.72         |
+| time/                   |              |
+|    fps                  | 1416         |
+|    iterations           | 41           |
+|    time_elapsed         | 59           |
+|    total_timesteps      | 83968        |
+| train/                  |              |
+|    approx_kl            | 0.0004384657 |
+|    clip_fraction        | 0.00527      |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.0904      |
+|    explained_variance   | 0.187        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.0213       |
+|    n_updates            | 400          |
+|    policy_gradient_loss | -0.000852    |
+|    value_loss           | 0.0415       |
+------------------------------------------
+Episode 4310: Reward=1.00, Length=1, Avg Reward (100)=0.74, Success Rate (100)=0.74
+Episode 4320: Reward=1.00, Length=1, Avg Reward (100)=0.73, Success Rate (100)=0.73
+Episode 4330: Reward=0.00, Length=1, Avg Reward (100)=0.73, Success Rate (100)=0.73
+Episode 4340: Reward=1.00, Length=1, Avg Reward (100)=0.72, Success Rate (100)=0.72
+Episode 4350: Reward=1.00, Length=1, Avg Reward (100)=0.69, Success Rate (100)=0.69
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 38.5        |
+|    ep_rew_mean          | 0.69        |
+| time/                   |             |
+|    fps                  | 1416        |
+|    iterations           | 42          |
+|    time_elapsed         | 60          |
+|    total_timesteps      | 86016       |
+| train/                  |             |
+|    approx_kl            | 0.001251495 |
+|    clip_fraction        | 0.0133      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.0935     |
+|    explained_variance   | 0.198       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.0218      |
+|    n_updates            | 410         |
+|    policy_gradient_loss | -0.00204    |
+|    value_loss           | 0.0439      |
+-----------------------------------------
+Episode 4360: Reward=1.00, Length=1, Avg Reward (100)=0.70, Success Rate (100)=0.70
+Episode 4370: Reward=1.00, Length=1, Avg Reward (100)=0.70, Success Rate (100)=0.70
+Episode 4380: Reward=1.00, Length=1, Avg Reward (100)=0.71, Success Rate (100)=0.71
+Episode 4390: Reward=1.00, Length=1, Avg Reward (100)=0.73, Success Rate (100)=0.73
+Episode 4400: Reward=1.00, Length=1, Avg Reward (100)=0.72, Success Rate (100)=0.72
+Episode 4410: Reward=1.00, Length=1, Avg Reward (100)=0.70, Success Rate (100)=0.70
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 35.7          |
+|    ep_rew_mean          | 0.69          |
+| time/                   |               |
+|    fps                  | 1417          |
+|    iterations           | 43            |
+|    time_elapsed         | 62            |
+|    total_timesteps      | 88064         |
+| train/                  |               |
+|    approx_kl            | 0.00057521334 |
+|    clip_fraction        | 0.0133        |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -0.0701       |
+|    explained_variance   | 0.166         |
+|    learning_rate        | 0.0003        |
+|    loss                 | 0.00975       |
+|    n_updates            | 420           |
+|    policy_gradient_loss | -0.00212      |
+|    value_loss           | 0.0384        |
+-------------------------------------------
+Episode 4420: Reward=0.00, Length=1, Avg Reward (100)=0.69, Success Rate (100)=0.69
+Episode 4430: Reward=1.00, Length=1, Avg Reward (100)=0.68, Success Rate (100)=0.68
+Episode 4440: Reward=0.00, Length=1, Avg Reward (100)=0.67, Success Rate (100)=0.67
+Episode 4450: Reward=0.00, Length=1, Avg Reward (100)=0.66, Success Rate (100)=0.66
+Episode 4460: Reward=1.00, Length=1, Avg Reward (100)=0.68, Success Rate (100)=0.68
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 36.2          |
+|    ep_rew_mean          | 0.67          |
+| time/                   |               |
+|    fps                  | 1417          |
+|    iterations           | 44            |
+|    time_elapsed         | 63            |
+|    total_timesteps      | 90112         |
+| train/                  |               |
+|    approx_kl            | 0.00089530146 |
+|    clip_fraction        | 0.0138        |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -0.0689       |
+|    explained_variance   | 0.165         |
+|    learning_rate        | 0.0003        |
+|    loss                 | 0.0276        |
+|    n_updates            | 430           |
+|    policy_gradient_loss | -0.00189      |
+|    value_loss           | 0.048         |
+-------------------------------------------
+Episode 4470: Reward=0.00, Length=1, Avg Reward (100)=0.67, Success Rate (100)=0.67
+Episode 4480: Reward=0.00, Length=1, Avg Reward (100)=0.66, Success Rate (100)=0.66
+Episode 4490: Reward=0.00, Length=1, Avg Reward (100)=0.63, Success Rate (100)=0.63
+Episode 4500: Reward=1.00, Length=1, Avg Reward (100)=0.60, Success Rate (100)=0.60
+Episode 4510: Reward=1.00, Length=1, Avg Reward (100)=0.61, Success Rate (100)=0.61
+Episode 4520: Reward=0.00, Length=1, Avg Reward (100)=0.60, Success Rate (100)=0.60
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 39.1         |
+|    ep_rew_mean          | 0.6          |
+| time/                   |              |
+|    fps                  | 1417         |
+|    iterations           | 45           |
+|    time_elapsed         | 65           |
+|    total_timesteps      | 92160        |
+| train/                  |              |
+|    approx_kl            | 0.0007765866 |
+|    clip_fraction        | 0.00752      |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.071       |
+|    explained_variance   | 0.14         |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.00863      |
+|    n_updates            | 440          |
+|    policy_gradient_loss | -0.00119     |
+|    value_loss           | 0.0436       |
+------------------------------------------
+Episode 4530: Reward=0.00, Length=1, Avg Reward (100)=0.59, Success Rate (100)=0.59
+Episode 4540: Reward=1.00, Length=1, Avg Reward (100)=0.60, Success Rate (100)=0.60
+Episode 4550: Reward=0.00, Length=1, Avg Reward (100)=0.62, Success Rate (100)=0.62
+Episode 4560: Reward=1.00, Length=1, Avg Reward (100)=0.60, Success Rate (100)=0.60
+Episode 4570: Reward=1.00, Length=1, Avg Reward (100)=0.62, Success Rate (100)=0.62
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 39.9         |
+|    ep_rew_mean          | 0.62         |
+| time/                   |              |
+|    fps                  | 1417         |
+|    iterations           | 46           |
+|    time_elapsed         | 66           |
+|    total_timesteps      | 94208        |
+| train/                  |              |
+|    approx_kl            | 0.0010571656 |
+|    clip_fraction        | 0.0153       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.0654      |
+|    explained_variance   | 0.137        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.0179       |
+|    n_updates            | 450          |
+|    policy_gradient_loss | -0.00274     |
+|    value_loss           | 0.0437       |
+------------------------------------------
+Episode 4580: Reward=0.00, Length=1, Avg Reward (100)=0.63, Success Rate (100)=0.63
+Episode 4590: Reward=0.00, Length=1, Avg Reward (100)=0.61, Success Rate (100)=0.61
+Episode 4600: Reward=1.00, Length=1, Avg Reward (100)=0.62, Success Rate (100)=0.62
+Episode 4610: Reward=0.00, Length=1, Avg Reward (100)=0.60, Success Rate (100)=0.60
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 43.1         |
+|    ep_rew_mean          | 0.59         |
+| time/                   |              |
+|    fps                  | 1418         |
+|    iterations           | 47           |
+|    time_elapsed         | 67           |
+|    total_timesteps      | 96256        |
+| train/                  |              |
+|    approx_kl            | 0.0016600074 |
+|    clip_fraction        | 0.0082       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.0513      |
+|    explained_variance   | 0.145        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.0236       |
+|    n_updates            | 460          |
+|    policy_gradient_loss | -0.00236     |
+|    value_loss           | 0.045        |
+------------------------------------------
+Episode 4620: Reward=0.00, Length=1, Avg Reward (100)=0.58, Success Rate (100)=0.58
+Episode 4630: Reward=0.00, Length=1, Avg Reward (100)=0.59, Success Rate (100)=0.59
+Episode 4640: Reward=1.00, Length=1, Avg Reward (100)=0.60, Success Rate (100)=0.60
+Episode 4650: Reward=0.00, Length=1, Avg Reward (100)=0.61, Success Rate (100)=0.61
+Episode 4660: Reward=1.00, Length=1, Avg Reward (100)=0.63, Success Rate (100)=0.63
+Episode 4670: Reward=1.00, Length=1, Avg Reward (100)=0.61, Success Rate (100)=0.61
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 39.6          |
+|    ep_rew_mean          | 0.61          |
+| time/                   |               |
+|    fps                  | 1418          |
+|    iterations           | 48            |
+|    time_elapsed         | 69            |
+|    total_timesteps      | 98304         |
+| train/                  |               |
+|    approx_kl            | 0.00041877586 |
+|    clip_fraction        | 0.00439       |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -0.0497       |
+|    explained_variance   | 0.164         |
+|    learning_rate        | 0.0003        |
+|    loss                 | 0.016         |
+|    n_updates            | 470           |
+|    policy_gradient_loss | -0.000867     |
+|    value_loss           | 0.0378        |
+-------------------------------------------
+Episode 4680: Reward=1.00, Length=1, Avg Reward (100)=0.63, Success Rate (100)=0.63
+Episode 4690: Reward=0.00, Length=1, Avg Reward (100)=0.66, Success Rate (100)=0.66
+Episode 4700: Reward=0.00, Length=1, Avg Reward (100)=0.64, Success Rate (100)=0.64
+Episode 4710: Reward=1.00, Length=1, Avg Reward (100)=0.66, Success Rate (100)=0.66
+Episode 4720: Reward=1.00, Length=1, Avg Reward (100)=0.72, Success Rate (100)=0.72
+Episode 4730: Reward=1.00, Length=1, Avg Reward (100)=0.73, Success Rate (100)=0.73
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 34.3          |
+|    ep_rew_mean          | 0.74          |
+| time/                   |               |
+|    fps                  | 1418          |
+|    iterations           | 49            |
+|    time_elapsed         | 70            |
+|    total_timesteps      | 100352        |
+| train/                  |               |
+|    approx_kl            | 0.00039576067 |
+|    clip_fraction        | 0.00435       |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -0.0483       |
+|    explained_variance   | 0.181         |
+|    learning_rate        | 0.0003        |
+|    loss                 | 0.0175        |
+|    n_updates            | 480           |
+|    policy_gradient_loss | -0.00104      |
+|    value_loss           | 0.0501        |
+-------------------------------------------
+
+Training completed!
+Final average reward (last 100 episodes): 0.74
+Final success rate (last 100 episodes): 0.74
+/home/log/Github/LocalRL/.venv/lib/python3.12/site-packages/gymnasium/wrappers/rendering.py:296: UserWarning: [33mWARN: Overwriting existing videos at /home/log/Github/LocalRL/FrozenLake/videos folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+/home/log/Github/LocalRL/.venv/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_stream, resource_exists
+Total reward: 0.0
+Total steps: 35

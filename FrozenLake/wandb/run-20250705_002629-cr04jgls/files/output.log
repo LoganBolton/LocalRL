@@ -1,0 +1,106 @@
+Using cuda device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+/home/log/Github/LocalRL/.venv/lib/python3.12/site-packages/stable_baselines3/common/on_policy_algorithm.py:150: UserWarning: You are trying to run PPO on the GPU, but it is primarily intended to run on the CPU when not using a CNN policy (you are using ActorCriticPolicy which should be a MlpPolicy). See https://github.com/DLR-RM/stable-baselines3/issues/1245 for more info. You can pass `device='cpu'` or `export CUDA_VISIBLE_DEVICES=` to force using the CPU.Note: The model will train, but the GPU utilization will be poor and the training might take longer than on CPU.
+  warnings.warn(
+Logging to ./ppo_frozenlake_tensorboard/PPO_2
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 8.05     |
+|    ep_rew_mean     | 0.02     |
+| time/              |          |
+|    fps             | 1731     |
+|    iterations      | 1        |
+|    time_elapsed    | 1        |
+|    total_timesteps | 2048     |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 8.35         |
+|    ep_rew_mean          | 0.04         |
+| time/                   |              |
+|    fps                  | 1491         |
+|    iterations           | 2            |
+|    time_elapsed         | 2            |
+|    total_timesteps      | 4096         |
+| train/                  |              |
+|    approx_kl            | 0.0052339947 |
+|    clip_fraction        | 0.0183       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.38        |
+|    explained_variance   | -1.03        |
+|    learning_rate        | 0.0003       |
+|    loss                 | -0.00778     |
+|    n_updates            | 10           |
+|    policy_gradient_loss | -0.0073      |
+|    value_loss           | 0.0125       |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 6.64        |
+|    ep_rew_mean          | 0.02        |
+| time/                   |             |
+|    fps                  | 1459        |
+|    iterations           | 3           |
+|    time_elapsed         | 4           |
+|    total_timesteps      | 6144        |
+| train/                  |             |
+|    approx_kl            | 0.012872193 |
+|    clip_fraction        | 0.168       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.37       |
+|    explained_variance   | 0.153       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.00087     |
+|    n_updates            | 20          |
+|    policy_gradient_loss | -0.00977    |
+|    value_loss           | 0.0171      |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 7.57        |
+|    ep_rew_mean          | 0.03        |
+| time/                   |             |
+|    fps                  | 1443        |
+|    iterations           | 4           |
+|    time_elapsed         | 5           |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 0.013567898 |
+|    clip_fraction        | 0.117       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.35       |
+|    explained_variance   | 0.0657      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0305     |
+|    n_updates            | 30          |
+|    policy_gradient_loss | -0.0107     |
+|    value_loss           | 0.00942     |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 7.15        |
+|    ep_rew_mean          | 0.05        |
+| time/                   |             |
+|    fps                  | 1435        |
+|    iterations           | 5           |
+|    time_elapsed         | 7           |
+|    total_timesteps      | 10240       |
+| train/                  |             |
+|    approx_kl            | 0.009503072 |
+|    clip_fraction        | 0.0769      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.32       |
+|    explained_variance   | 0.146       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.0104      |
+|    n_updates            | 40          |
+|    policy_gradient_loss | -0.00737    |
+|    value_loss           | 0.0166      |
+-----------------------------------------
+/home/log/Github/LocalRL/.venv/lib/python3.12/site-packages/gymnasium/wrappers/rendering.py:296: UserWarning: [33mWARN: Overwriting existing videos at /home/log/Github/LocalRL/FrozenLake/videos folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+/home/log/Github/LocalRL/.venv/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_stream, resource_exists
+Total reward: 0.0
+Total steps: 7

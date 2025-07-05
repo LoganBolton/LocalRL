@@ -1,0 +1,64 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            dp7l5zqs5zdw9a1rt4n0gm307xmezh4y:
+                codePath: FrozenLake/agent.py
+                codePathLocal: agent.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "12.4"
+                disk:
+                    /:
+                        total: "1966736678912"
+                        used: "141781737472"
+                email: loganbolton101@gmail.com
+                executable: /home/log/Github/LocalRL/.venv/bin/python
+                git:
+                    remote: https://github.com/LoganBolton/LocalRL
+                gpu: NVIDIA GeForce RTX 3090
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 10496
+                      memoryTotal: "25769803776"
+                      name: NVIDIA GeForce RTX 3090
+                      uuid: GPU-ae0db9b3-d710-87b1-6109-2223a6e2633b
+                    - architecture: Ampere
+                      cudaCores: 10496
+                      memoryTotal: "25769803776"
+                      name: NVIDIA GeForce RTX 3090
+                      uuid: GPU-e7528d81-29f1-0592-1333-a84d879b1a88
+                host: log-linux
+                memory:
+                    total: "66473754624"
+                os: Linux-6.11.0-26-generic-x86_64-with-glibc2.39
+                program: /home/log/Github/LocalRL/FrozenLake/agent.py
+                python: CPython 3.12.7
+                root: /home/log/Github/LocalRL/FrozenLake
+                startedAt: "2025-07-05T05:26:29.438206Z"
+                writerId: dp7l5zqs5zdw9a1rt4n0gm307xmezh4y
+        m: []
+        python_version: 3.12.7
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 2
+                - 3
+                - 13
+                - 16
+            "4": 3.12.7
+            "5": 0.21.0
+            "12": 0.21.0
+            "13": linux-x86_64
+algorithm:
+    value: PPO
+environment:
+    value: FrozenLake-v1
+policy:
+    value: MlpPolicy
+total_timesteps:
+    value: 10000

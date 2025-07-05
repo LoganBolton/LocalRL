@@ -1,0 +1,14 @@
+{"time":"2025-07-05T00:03:15.311185821-05:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-05T00:03:15.512754696-05:00","level":"INFO","msg":"stream: created new stream","id":"lqog7u97"}
+{"time":"2025-07-05T00:03:15.512778865-05:00","level":"INFO","msg":"stream: started","id":"lqog7u97"}
+{"time":"2025-07-05T00:03:15.512800975-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"lqog7u97"}
+{"time":"2025-07-05T00:03:15.512797985-05:00","level":"INFO","msg":"handler: started","stream_id":"lqog7u97"}
+{"time":"2025-07-05T00:03:15.512826864-05:00","level":"INFO","msg":"sender: started","stream_id":"lqog7u97"}
+{"time":"2025-07-05T00:06:15.860560621-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/logway-auburn-university/frozenlake-ppo/lqog7u97/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-07-05T00:08:00.070858904-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading ppo_frozenlake.zip","runtime_seconds":0.404569839,"progress":"158.9KB/158.9KB"}],"total_operations":1}}
+{"time":"2025-07-05T00:08:00.109714078-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-05T00:08:01.905788447-05:00","level":"INFO","msg":"stream: closing","id":"lqog7u97"}
+{"time":"2025-07-05T00:08:01.905797487-05:00","level":"INFO","msg":"handler: closed","stream_id":"lqog7u97"}
+{"time":"2025-07-05T00:08:01.905803787-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lqog7u97"}
+{"time":"2025-07-05T00:08:01.905817447-05:00","level":"INFO","msg":"sender: closed","stream_id":"lqog7u97"}
+{"time":"2025-07-05T00:08:01.905846777-05:00","level":"INFO","msg":"stream: closed","id":"lqog7u97"}
